@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a22a3831f9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Jobcast</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/jobcast-logo.png" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:wght@400;500;700;900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div id="heading">
+      <img src="jobcast-logo.png" alt="Jobcast Logo" id="heading-logo" />
+      <h1 id="heading-text">Der Jobcast</h1>
+    </div>
+
+    <div id="episodes-container"></div>
+    <div id="media-player-spacer"></div>
+    <div id="media-player">
+      <img src="jobcast-logo.png" alt="Jobcast Logo" id="player-logo" />
+      <div id="now-playing">Now playing</div>
+      <div id="playback-controls">
+        <i class="fa-solid fa-backward-step" id="back"></i>
+        <i class="fa-solid fa-play" id="pb-play"></i>
+        <i class="fa-solid fa-forward-step" id="forward"></i>
+      </div>
+      <i class="fa-solid fa-xmark" id="close"></i>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

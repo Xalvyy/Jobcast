@@ -184,7 +184,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: height 0.2s;
+  transition: height 0.1s;
   overflow: hidden;
 }
 

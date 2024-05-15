@@ -106,8 +106,8 @@ body {
 .episode-info {
   align-self: flex-start;
   opacity: 0;
-  height: 0rem;
-  transition: height 0.2s, opacity 0.1s, margin 0.2s;
+  max-height: 0rem;
+  transition: max-height 0.2s, opacity 0.1s, margin 0.2s;
   padding: 0;
   margin: 0rem 0.7rem;
   text-overflow: ellipsis;
@@ -117,7 +117,7 @@ body {
 .activated.episode-info {
   opacity: 1;
   margin: 0.5rem 0.7rem;
-  height: 10rem;
+  max-height: 10rem;
 }
 
 .episode:before,
